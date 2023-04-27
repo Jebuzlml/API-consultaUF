@@ -15,7 +15,7 @@ sudo docker rmi -f api-uf
 echo 'Construccion de imagen nueva'
 
 # build dockerfile
-sudo docker build -f dockerfile -t api-uf .
+sudo docker build -t api-uf .
 
 echo 'Creacion y ejecucion de nuevo contenedor'
 
