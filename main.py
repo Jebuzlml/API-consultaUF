@@ -29,7 +29,7 @@ def shutdown():
 
 # Funcion encargada de entregar un valor de UF segun año, mes y dia
 @app.post("/api/valor-uf")
-def check_uf(check: Uf):
+async def check_uf(check: Uf):
     uf = UfValue(check.year)
     uf.get_data_sii()
     uf.get_data_uf()
