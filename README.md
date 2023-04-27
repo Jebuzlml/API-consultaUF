@@ -17,12 +17,13 @@ Para comprobar su ejecución puede acceder a la documentación con la siguiente 
 > nota: la consola entrega la direccion por defecto.
 
 Para acceder a los datos se utiliza la siguiente estructura 
-
-    {
-      "year": "2022",
-      "month": "1",
-      "day": "23"
-    }
+```json
+{
+  "year": "2022",
+  "month": "1",
+  "day": "23"
+}
+   ```
    
    Donde.
  - "year": corresponde al año
@@ -30,4 +31,20 @@ Para acceder a los datos se utiliza la siguiente estructura
  - "day": corresponde al dia
 
 ## Demo
-En progreso...
+Puedes probar la api con el siguiente enlace:
+
+> http://18.228.165.204:666/docs
+
+Tambien puedes usar postman y usar este endpint:
+
+> http://18.228.165.204:666/api/valor-uf
+
+El body debe tener la siguiente estructura: 
+
+```json
+{
+  "year": "string",
+  "month": "string",
+  "day": "string"
+}
+```
