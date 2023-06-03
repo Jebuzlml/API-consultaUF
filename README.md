@@ -32,12 +32,10 @@ Para acceder a los datos se utiliza la siguiente estructura
 
 ## Demo
 Puedes probar la api con el siguiente enlace:
-
-> http://18.228.165.204:666/docs
+> https://api-uf.onrender.com/docs
 
 Tambien puedes usar postman y usar este endpint:
-
-> http://18.228.165.204:666/api/valor-uf
+> https://api-uf.onrender.com/api/valor-uf
 
 El body debe tener la siguiente estructura: 
 
